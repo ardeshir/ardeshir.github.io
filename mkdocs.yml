@@ -1,0 +1,44 @@
+site_name: Ardeshir Sepahsalar
+site_author: ardeshir
+repo_url: "https://github.com/ardeshir/ardeshir.github.io"
+repo_name: Github
+
+docs_dir: "./docs"
+
+nav:
+  - Home: 
+    - Getting Started: ./index.md
+    - Technologies: ./technologies.md
+    - Contributing: ./contributing.md
+    - Architecture: ./architecture.md
+  - Application: 
+    - Overview: ./overview.md
+    - Code Modules: ./codebase.md
+    - Data Model: ./data.md
+
+theme:
+  name: material
+  features:
+    - tabs
+    - navigation.tabs
+
+  palette:
+    scheme: slate
+    primary: white
+  icon:
+    repo: fontawesome/brands/github
+  favicon: images/small.png
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - javascript
+    - Bash
+    - Dockerfile
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
