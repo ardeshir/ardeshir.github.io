@@ -3,18 +3,18 @@ site_author: ardeshir
 repo_url: "https://github.com/ardeshir/ardeshir.github.io"
 repo_name: Github
 
-docs_dir: "./docs"
+docs_dir: "docs"
 
 nav:
   - Home: 
-    - Getting Started: ./index.md
-    - Technologies: ./technologies.md
-    - Contributing: ./contributing.md
-    - Architecture: ./architecture.md
+    - Getting Started: index.md
+    - Technologies: technologies.md
+    - Contributing: contributing.md
+    - Architecture: architecture.md
   - Applications: 
-    - Overview: ./overview.md
-    - Code Modules: ./codebase.md
-    - Data Model: ./data.md
+    - Overview: overview.md
+    - Code Modules: codebase.md
+    - Data Model: data.md
 
 theme:
   name: material

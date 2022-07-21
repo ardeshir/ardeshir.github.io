@@ -7,10 +7,9 @@
 ## Other Details
 
 ### URLs    
+     
 
-      
-
-### Deno Land 
+### CI/CD 
 
 
 ### Monitoring
