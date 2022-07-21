@@ -1,4 +1,4 @@
-# Formulation Optimization Models
+# Applications
 
 _Coming Soon!_
 
