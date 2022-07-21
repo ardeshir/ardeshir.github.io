@@ -11,7 +11,7 @@ nav:
     - Technologies: ./technologies.md
     - Contributing: ./contributing.md
     - Architecture: ./architecture.md
-  - Application: 
+  - Applications: 
     - Overview: ./overview.md
     - Code Modules: ./codebase.md
     - Data Model: ./data.md
