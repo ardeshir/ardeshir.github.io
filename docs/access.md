@@ -6,7 +6,7 @@
 # Practice Questions & Answers 
 
 ## QUESTIONS 
-### The following users were deleted from Azure Active Directory:
+### 1. The following users were deleted from Azure Active Directory:
 
 - User 1 on February 8, 2021
 - User 2 on March 20, 2021
@@ -19,8 +19,19 @@
 - Group C on April 9, 2021
 - Users and groups are not synced to Active Directory.
 
-2. On the 2nd of May 2021, you attempt to restore the deleted users and groups. Which users and groups can you restore?
+### Q: On the 2nd of May 2021, you attempt to restore the deleted users and groups. Which users and groups can you restore?
 
+### 1. Answer
+- User 3, and Group C only
+ 1. Users are retained for 30 days once deleted. Groups are retained for 30 days once deleted. You will be able to restore User 3 and Group C on May 2nd.
 
-==User 3, and Group C only==
- : Users are retained for 30 days once deleted. Groups are retained for 30 days once deleted. You will be able to restore User 3 and Group C on May 2nd.
+ ### 2. What tasks can a Privileged Role Administrator perform in PIM?
+
+ ### 2. Answer
+
+1. View request and approval history for all privileged roles.
+- A Privileged Role Administrator can audit all approval information in PIM.
+2. Enable approval for specific roles.
+- A Privileged Role Administrator can enable approval for all PIM roles.
+3. Specify users or groups to approve requests.
+- A Privileged Role Administrator can modify all PIM components, including specifying users and groups to approve requests.
