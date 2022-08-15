@@ -19,15 +19,15 @@
 - Group C on April 9, 2021
 - Users and groups are not synced to Active Directory.
 
-### Q: On the 2nd of May 2021, you attempt to restore the deleted users and groups. Which users and groups can you restore?
+### 1. Q: On the 2nd of May 2021, you attempt to restore the deleted users and groups. Which users and groups can you restore?
 
-### 1. Answer
+### 1. Answer:
 - User 3, and Group C only
  1. Users are retained for 30 days once deleted. Groups are retained for 30 days once deleted. You will be able to restore User 3 and Group C on May 2nd.
 
- ### 2. What tasks can a Privileged Role Administrator perform in PIM?
+### 2. Q: What tasks can a Privileged Role Administrator perform in PIM?
 
- ### 2. Answer
+### 2. Answer:
 
 1. View request and approval history for all privileged roles.
 - A Privileged Role Administrator can audit all approval information in PIM.
