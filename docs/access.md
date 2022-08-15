@@ -3,7 +3,7 @@
 - Manage secure access by using Azure AD 
 - Manage application access 
 - Manage access control Questions for this domain comprise 30% of the total questions for this exam.
-# Practive Questions & Answers 
+# Practice Questions & Answers 
 
 ## QUESTIONS 
 ### The following users were deleted from Azure Active Directory:
