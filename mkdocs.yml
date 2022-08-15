@@ -17,6 +17,10 @@ nav:
     - Data Model: data.md
   - Study: 
     - Certification: certs.md
+    - Manage Identity and Access: access.md
+    - Implement Platform Protection: protection.md
+    - Manage Security Operations: security.md 
+    - Secure Data and Applications: data_apps.md
 
 theme:
   name: material
