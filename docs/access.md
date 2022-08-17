@@ -82,3 +82,15 @@
 ### 5. Answer: 
 1. Yes
 - Managed disks are in the Microsoft.Compute provider. The user will be able to create managed disks. The notAction is not applicable to managed disks.
+
+### 6. You have an Azure Active Directory (Azure AD) tenant named dangeroustoys.com and an Azure subscription named DTSub1. You enable Azure AD Privileged Identity Management. You need to secure the members of the Site Recovery Contributor role. The solution must ensure the administrators request access when they create labs.
+
+### 6. Q: What should you do first?
+### 6. Answer: 
+1. 'From Azure AD Privileged Identity Management, discover the Azure resources of DTSub1.'
+- When you first set up PIM for Azure resources, you need to discover and select the resources to protect with PIM.
+
+### 7. Q: Which AD authentication methods allow you to handle sign-in completely in the cloud as long as you are going to use only natively Azure AD-supported sign-in features?
+### 7. Answer: 
+1. Password hash synchronization + Azure AD Seamless SSO
+- Password hash synchronization + Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO) allow you to handle sign-in completely in the cloud as long as you are going to use only natively Azure AD-supported sign-in features.
