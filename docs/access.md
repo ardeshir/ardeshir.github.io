@@ -94,3 +94,12 @@
 ### 7. Answer: 
 1. Password hash synchronization + Azure AD Seamless SSO
 - Password hash synchronization + Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO) allow you to handle sign-in completely in the cloud as long as you are going to use only natively Azure AD-supported sign-in features.
+
+### 8. An application has been configured for your Azure AD tenant. The application requires a large number of permissions including high privilege permissions to access organization data. During a pilot deployment of the application, it was found that users were unable to provide consent during initial application access. You would like to ensure that all users in the tenant will not be required to provide consent when using the application.
+
+### 8. Q: What action should you take?
+### 8. Answer: 
+1. Grant tenant-wide admin consent.
+- An administrator can grant consent on behalf of users in the tenant. When users access the application, they will not be required to provide consent.
+
+### 9. 
