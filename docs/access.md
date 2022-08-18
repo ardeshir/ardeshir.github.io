@@ -147,4 +147,14 @@
 ### 15. Q: In PIM, the process of performing one or more actions to use a role a user is eligible for is known as ____.
 ### 15. Answer:
 1. Activating the role
-- In PIM, the process of performing one or more actions to use a role a user is eligible for is known as activating the role.1. 
+- In PIM, the process of performing one or more actions to use a role a user is eligible for is known as activating the role.
+
+### 16. You need to create a new group with the following properties:
+- Group type: Security
+- Membership type: Dynamic User
+- Members: Query results in 25 Dynamic Users
+- The administrator creating the group is not a member of the group. No other dynamic user groups exist in the organization.
+### 16. Q: You need to purchase licenses to support the creation of this group. Your solution must also minimize costs. Which licenses should you purchase?
+### 16. Answer:
+1. 25 Azure AD Premium P1 licenses
+- One Azure AD Premium P1 license is required for each unique user that is a member of a dynamic user group. A license is not required for the administrator.
