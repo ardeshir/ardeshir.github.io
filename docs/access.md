@@ -111,3 +111,12 @@
 ### 10. Answer:
 1. Consent
 - Consent occurs during the sign-in process and is the process of a user granting authorization to an application to access protected resources on their behalf.
+
+### 11. Q: Which of the listed users can configure administrative units?
+- User A is assigned the role of Global Administrator and an Azure AD Premium P1 license.
+- User B is assigned the role of Security Administrator and an Azure AD Premium P2 license.
+- User C is assigned the role of Privileged Role Administrator and an Azure AD Premium P1 license.
+- User D is assigned the role of Global Administrator an an Azure AD Free license.
+### 11. Answer: 
+1. User A and User C only
+- The license requirements are Azure AD Premium P1 or Azure AD Premium P2. The role requirements are Global Administrator or Privileged Role Administrator. User A meets the requirements. User C meets the requirements.
