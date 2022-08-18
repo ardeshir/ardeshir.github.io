@@ -143,3 +143,8 @@
 ### 14. Answer: 
 1. Pass-through authentication
 - Pass-through authentication (PTA) is an agent-based authentication method that allows users to sign in to both on-premises and cloud-based applications using the same passwords. Authentication occurs against local AD domain controllers. The PTA agent can be installed on any server running Windows Server 2012 R2 or later.
+
+### 15. Q: In PIM, the process of performing one or more actions to use a role a user is eligible for is known as ____.
+### 15. Answer:
+1. Activating the role
+- In PIM, the process of performing one or more actions to use a role a user is eligible for is known as activating the role.1. 
