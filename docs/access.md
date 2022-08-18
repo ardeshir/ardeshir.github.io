@@ -121,4 +121,15 @@
 1. User A and User C only
 - The license requirements are Azure AD Premium P1 or Azure AD Premium P2. The role requirements are Global Administrator or Privileged Role Administrator. User A meets the requirements. User C meets the requirements.
 
-### 12. Q: 
+### 12. Q: You create a new Azure AD group with the following properties. Which of the objects listed can you add to the group?
+- Group type: Security
+- Membership type: Assigned
+### 12. Answer: 
+1. User
+- Users can be added to security groups and Microsoft 365 groups.
+
+2. Device
+- Devices can be added only to security groups.
+
+3. Service principal
+- Service principals can only be added to security groups.
