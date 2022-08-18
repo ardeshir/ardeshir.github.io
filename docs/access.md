@@ -158,3 +158,9 @@
 ### 16. Answer:
 1. 25 Azure AD Premium P1 licenses
 - One Azure AD Premium P1 license is required for each unique user that is a member of a dynamic user group. A license is not required for the administrator.
+### 17. Q: You have identified that users are inviting guests and adding them to Microsoft 365 groups that have access to confidential information. You need to ensure that only members of the Global Administrator, User Administrator, and Guest Inviter roles can invite external users (guests).
+- Which settings should you configure?
+
+### 17. Answer: 
+1. In External Collaboration settings, configure guest invite settings.
+- Guest invite settings control who can invite guests in the directory to collaborate on resources secured by Azure AD. This setting will allow you to restrict access to only members of specific admin roles.
