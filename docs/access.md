@@ -133,3 +133,8 @@
 
 3. Service principal
 - Service principals can only be added to security groups.
+
+### 13. Q: What Azure CLI command is used to create a new Azure AD user?
+### 13. Answer: 
+1. az ad user create
+- az ad user create is the correct CLI command to create a new Azure AD user account.
