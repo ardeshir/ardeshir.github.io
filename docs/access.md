@@ -102,4 +102,7 @@
 1. Grant tenant-wide admin consent.
 - An administrator can grant consent on behalf of users in the tenant. When users access the application, they will not be required to provide consent.
 
-### 9. 
+### 9. Q: What built-in RBAC role allows full access to the assigned Azure resources except the ability to manage access? 
+### 9. Answer: 
+1. Contributor
+- Contributor can manage Azure resources, but not give other users rights.
