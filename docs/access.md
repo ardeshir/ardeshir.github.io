@@ -138,3 +138,8 @@
 ### 13. Answer: 
 1. az ad user create
 - az ad user create is the correct CLI command to create a new Azure AD user account.
+
+### 14. Q: Which AAD authentication method allows for on-premises authentication without the need for additional infrastructure (besides agents)? The solution allows for a single point of authentication.
+### 14. Answer: 
+1. Pass-through authentication
+- Pass-through authentication (PTA) is an agent-based authentication method that allows users to sign in to both on-premises and cloud-based applications using the same passwords. Authentication occurs against local AD domain controllers. The PTA agent can be installed on any server running Windows Server 2012 R2 or later.
