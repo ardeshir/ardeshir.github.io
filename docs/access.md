@@ -120,3 +120,5 @@
 ### 11. Answer: 
 1. User A and User C only
 - The license requirements are Azure AD Premium P1 or Azure AD Premium P2. The role requirements are Global Administrator or Privileged Role Administrator. User A meets the requirements. User C meets the requirements.
+
+### 12. Q: 
