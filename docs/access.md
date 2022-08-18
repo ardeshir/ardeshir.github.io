@@ -106,3 +106,8 @@
 ### 9. Answer: 
 1. Contributor
 - Contributor can manage Azure resources, but not give other users rights.
+
+### 10. Q: What is the process of a user granting authorization to an application to access protected resources on their behalf?
+### 10. Answer:
+1. Consent
+- Consent occurs during the sign-in process and is the process of a user granting authorization to an application to access protected resources on their behalf.
