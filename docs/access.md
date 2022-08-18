@@ -22,28 +22,22 @@
 ### 1. Q: On the 2nd of May 2021, you attempt to restore the deleted users and groups. Which users and groups can you restore?
 
 ### 1. Answer:
-- User 3, and Group C only
- 1. Users are retained for 30 days once deleted. Groups are retained for 30 days once deleted. You will be able to restore User 3 and Group C on May 2nd.
+- User 3, and Group C only. 
+- Users are retained for 30 days once deleted. Groups are retained for 30 days once deleted. You will be able to restore User 3 and Group C on May 2nd.
 
 ### 2. Q: What tasks can a Privileged Role Administrator perform in PIM?
 
 ### 2. Answer:
-
-1. View request and approval history for all privileged roles.
-- A Privileged Role Administrator can audit all approval information in PIM.
-
-2. Enable approval for specific roles.
-- A Privileged Role Administrator can enable approval for all PIM roles.
-
-3. Specify users or groups to approve requests.
-- A Privileged Role Administrator can modify all PIM components, including specifying users and groups to approve requests.
+1. View request and approval history for all privileged roles. A Privileged Role Administrator can audit all approval information in PIM.
+2. Enable approval for specific roles. A Privileged Role Administrator can enable approval for all PIM roles.
+3. Specify users or groups to approve requests. A Privileged Role Administrator can modify all PIM components, including specifying users and groups to approve requests.
 
 ### 3. Q: In Azure AD Identity Protection when a sign-in risk is detected, what actions can IDP take to protect a user account?
 ### 3. Answer: 
-1. Require the use of multi-factor authentication (MFA)
+- Require the use of multi-factor authentication (MFA)
 - Requiring MFA is an appropriate response for sign-in risks.
 
-2. Block access to the web service.
+- Block access to the web service.
 - In Azure AD Identity Protection, the administrator can always choose to block or allow access to web services for user and sign-in risks.
 
 ### 4. An developer is currently developing an application that will be hosted in Azure. They require permissions to register their application and grant consent on their own behalf. The Azure AD user setting Users can register their own applications has been set to No. The Azure AD user setting Users can consent to apps accessing company data on their behalf has been set to No.
@@ -80,37 +74,34 @@
 ### 5. Q: When assigned to a user, will this role allow the user to create managed disks in the subscription 1ecb3eac-5656-4637-9f34-8765d32ea63f?
 
 ### 5. Answer: 
-1. Yes
-- Managed disks are in the Microsoft.Compute provider. The user will be able to create managed disks. The notAction is not applicable to managed disks.
+- Yes.  Managed disks are in the Microsoft.Compute provider. The user will be able to create managed disks. The notAction is not applicable to managed disks.
 
 ### 6. You have an Azure Active Directory (Azure AD) tenant named dangeroustoys.com and an Azure subscription named DTSub1. You enable Azure AD Privileged Identity Management. You need to secure the members of the Site Recovery Contributor role. The solution must ensure the administrators request access when they create labs.
 
 ### 6. Q: What should you do first?
 ### 6. Answer: 
-1. 'From Azure AD Privileged Identity Management, discover the Azure resources of DTSub1.'
+- 'From Azure AD Privileged Identity Management, discover the Azure resources of DTSub1.'
 - When you first set up PIM for Azure resources, you need to discover and select the resources to protect with PIM.
 
 ### 7. Q: Which AD authentication methods allow you to handle sign-in completely in the cloud as long as you are going to use only natively Azure AD-supported sign-in features?
 ### 7. Answer: 
-1. Password hash synchronization + Azure AD Seamless SSO
+- Password hash synchronization + Azure AD Seamless SSO
 - Password hash synchronization + Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO) allow you to handle sign-in completely in the cloud as long as you are going to use only natively Azure AD-supported sign-in features.
 
 ### 8. An application has been configured for your Azure AD tenant. The application requires a large number of permissions including high privilege permissions to access organization data. During a pilot deployment of the application, it was found that users were unable to provide consent during initial application access. You would like to ensure that all users in the tenant will not be required to provide consent when using the application.
 
 ### 8. Q: What action should you take?
 ### 8. Answer: 
-1. Grant tenant-wide admin consent.
+- Grant tenant-wide admin consent.
 - An administrator can grant consent on behalf of users in the tenant. When users access the application, they will not be required to provide consent.
 
 ### 9. Q: What built-in RBAC role allows full access to the assigned Azure resources except the ability to manage access? 
 ### 9. Answer: 
-1. Contributor
-- Contributor can manage Azure resources, but not give other users rights.
+- Contributor:  Contributor can manage Azure resources, but not give other users rights.
 
 ### 10. Q: What is the process of a user granting authorization to an application to access protected resources on their behalf?
 ### 10. Answer:
-1. Consent
-- Consent occurs during the sign-in process and is the process of a user granting authorization to an application to access protected resources on their behalf.
+- Consent: Consent occurs during the sign-in process and is the process of a user granting authorization to an application to access protected resources on their behalf.
 
 ### 11. Q: Which of the listed users can configure administrative units?
 - User A is assigned the role of Global Administrator and an Azure AD Premium P1 license.
@@ -118,36 +109,29 @@
 - User C is assigned the role of Privileged Role Administrator and an Azure AD Premium P1 license.
 - User D is assigned the role of Global Administrator an an Azure AD Free license.
 ### 11. Answer: 
-1. User A and User C only
+- User A and User C only
 - The license requirements are Azure AD Premium P1 or Azure AD Premium P2. The role requirements are Global Administrator or Privileged Role Administrator. User A meets the requirements. User C meets the requirements.
 
 ### 12. Q: You create a new Azure AD group with the following properties. Which of the objects listed can you add to the group?
 - Group type: Security
 - Membership type: Assigned
 ### 12. Answer: 
-1. User
-- Users can be added to security groups and Microsoft 365 groups.
-
-2. Device
-- Devices can be added only to security groups.
-
-3. Service principal
-- Service principals can only be added to security groups.
+1. User: Users can be added to security groups and Microsoft 365 groups.
+2. Device: Devices can be added only to security groups.
+3. Service principal: Service principals can only be added to security groups.
 
 ### 13. Q: What Azure CLI command is used to create a new Azure AD user?
 ### 13. Answer: 
-1. az ad user create
+- az ad user create. 
 - az ad user create is the correct CLI command to create a new Azure AD user account.
 
 ### 14. Q: Which AAD authentication method allows for on-premises authentication without the need for additional infrastructure (besides agents)? The solution allows for a single point of authentication.
 ### 14. Answer: 
-1. Pass-through authentication
-- Pass-through authentication (PTA) is an agent-based authentication method that allows users to sign in to both on-premises and cloud-based applications using the same passwords. Authentication occurs against local AD domain controllers. The PTA agent can be installed on any server running Windows Server 2012 R2 or later.
+- Pass-through authentication.  Pass-through authentication (PTA) is an agent-based authentication method that allows users to sign in to both on-premises and cloud-based applications using the same passwords. Authentication occurs against local AD domain controllers. The PTA agent can be installed on any server running Windows Server 2012 R2 or later.
 
 ### 15. Q: In PIM, the process of performing one or more actions to use a role a user is eligible for is known as ____.
 ### 15. Answer:
-1. Activating the role
-- In PIM, the process of performing one or more actions to use a role a user is eligible for is known as activating the role.
+- Activating the role. In PIM, the process of performing one or more actions to use a role a user is eligible for is known as activating the role.
 
 ### 16. You need to create a new group with the following properties:
 - Group type: Security
@@ -156,11 +140,11 @@
 - The administrator creating the group is not a member of the group. No other dynamic user groups exist in the organization.
 ### 16. Q: You need to purchase licenses to support the creation of this group. Your solution must also minimize costs. Which licenses should you purchase?
 ### 16. Answer:
-1. 25 Azure AD Premium P1 licenses
+- 25 Azure AD Premium P1 licenses
 - One Azure AD Premium P1 license is required for each unique user that is a member of a dynamic user group. A license is not required for the administrator.
 ### 17. Q: You have identified that users are inviting guests and adding them to Microsoft 365 groups that have access to confidential information. You need to ensure that only members of the Global Administrator, User Administrator, and Guest Inviter roles can invite external users (guests).
 - Which settings should you configure?
 
 ### 17. Answer: 
-1. In External Collaboration settings, configure guest invite settings.
+- In External Collaboration settings, configure guest invite settings.
 - Guest invite settings control who can invite guests in the directory to collaborate on resources secured by Azure AD. This setting will allow you to restrict access to only members of specific admin roles.
